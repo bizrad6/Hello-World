@@ -1,6 +1,6 @@
 <?php
-function oh_hai() {
-    echo 'OH HAI';
+function oh($greeting = 'HAI') {
+    echo 'OH ' . $greeting;
 }
 
-oh_hai();
+oh();
